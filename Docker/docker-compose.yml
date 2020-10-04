@@ -1,0 +1,12 @@
+version: '3.1' #if you dont put the version  v1 will be asumed. Recommed v2 minimun
+services: #each container in the same as docker run
+ servicename: #a friendly name, this wil be also DNS name inside network
+  image: #Optional just if you requeried
+  command: #Optional, replace the defacult CDM
+  environment: # Optional it's the same that -e
+  volumes: #Optional it's the same that -v
+ servicename2:
+
+volumes:
+networks:
+
