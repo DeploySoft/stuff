@@ -5,6 +5,7 @@ services: #each container in the same as docker run
   command: #Optional, replace the defacult CDM
   environment: # Optional it's the same that -e
   volumes: #Optional it's the same that -v
+  healthcheck:
  servicename2:
 
 volumes:
